@@ -1,68 +1,37 @@
-<header class="header">
-	<div class="header-container">
-		<div class="nav">
-			{% if page.path == "index.html" %}
-			<span class="title">
-				<li>
-					<a href="/index.html">home</a>
-				</li>
-			</span>			
-			{% else %}
-				<li>
-					<a href="/index.html">home</a>
-				</li>			
-			{% endif %}
-			{% if page.path == "archive.html" %}
-			<span class="title">
-				<li>
-					<a href="/archive.html">archive</a>
-				</li>
-			</span>			
-			{% else %}
-				<li>
-					<a href="/archive.html">archive</a>
-				</li>			
-			{% endif %}
-			{% if page.path == "category.html" %}
-			<span class="title">
-				<li>
-					<a href="/category.html">category</a>
-				</li>
-			</span>			
-			{% else %}
-				<li>
-					<a href="/category.html">category</a>
-				</li>			
-			{% endif %}
-			{% if page.path == "about.html" %}
-			<span class="title">
-				<li>
-					<a href="/about.html">about</a>
-				</li>
-			</span>			
-			{% else %}
-				<li>
-					<a href="/about.html">about</a>
-				</li>			
-			{% endif %}
-		</div>
-		<div class="description"> {{ site.motto }} </div>		
-		<ul class="social-links">
-			<li>
-				<a href="https://github.com/{{ site.github_username }}" title="Github">
-					<img width="19px" height="19px" src="/images/github.png"/>
-				</a>
-			</li>
-			<li>
-				<a href="/feed.xml" title="RSS">
-					<img width="19px" height="19px" src="/images/rss.png"/>
-				</a>
-			</li>
-			<li>
-				<a href="https://twitter.com/{{ site.twitter_username }}" title="Twitter">
-					<img width="19px" height="19px" src="/images/twitter.png"/>
-				</a>
-			</li>
-		</ul>		
-	</div>
+<header class='c-header'>
+
+  <div class='o-grid'>
+    <div class='o-grid__col o-grid__col--full'>
+      <div class='c-header__inner'>
+
+        <div class='o-grid'>
+          <div class='o-grid__col o-grid__col--3-4-s'>
+            <div class='c-logo u-text-left'>
+              <a class='c-logo__link' href='{{ site.baseurl }}/'>{{ site.title }}</a>
+            </div>
+          </div>
+
+          <div class='o-grid__col o-grid__col--1-4-s'>
+            <label class='js-off-canvas-toggle c-off-canvas-toggle' aria-label='Toggle navigation'>
+              <span class='c-off-canvas-toggle__icon'></span>
+            </label>
+          </div>
+
+          <div class='o-grid__col o-grid__col--1-4-s'>
+            <div class='c-off-canvas-content'>
+              <label class='js-off-canvas-toggle c-off-canvas-toggle c-off-canvas-toggle--close'>
+                <span class='c-off-canvas-toggle__icon'></span>
+              </label>
+
+              <ul class='c-nav o-plain-list '>
+                {% include navigation.html %}
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
 </header>

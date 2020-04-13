@@ -2,21 +2,14 @@
 layout: default
 ---
 
-<div class="home">
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <br>
-        <h3>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h3>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y %H:%m" }}</span>
-        <hr id="line">
-		<div class="content">
-		{{ post.excerpt }}
-        </div>
-		<br>
-      </li>
+<div class='o-wrapper'>
+  <div class='o-grid'>
+    {% for post in paginator.posts %}
+      {% include post-card.liquid %}
     {% endfor %}
-  </ul>
+  </div>
+
+  <div class='o-grid'>
+    {% include pagination.html %}
+  </div>
 </div>
