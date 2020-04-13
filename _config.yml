@@ -41,4 +41,4 @@ plugins:
 #  - jekyll-feed
 
 #remote theme
-remote_theme: thelehhman/plainwhite-jekyll
+remote_theme: thelehhman/texture
