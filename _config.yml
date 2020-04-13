@@ -40,4 +40,5 @@ plugins:
   - jekyll-seo-tag
 #  - jekyll-feed
 
+#remote theme
 remote_theme: thelehhman/texture
