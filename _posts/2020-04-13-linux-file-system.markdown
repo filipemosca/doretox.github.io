@@ -6,7 +6,6 @@ date:   2020-04-13
 categories: Linux
 ---
 
-## Introduction
 The Linux filesystem structure is somewhat different from that of Windows. Linux has roots in UNIX so it has the backslash for directory separation and its name system is case sensitive.
 For example, on a Linux file system the following files: file.txt, File.txt and FIle.txt are different.
 The Linux system is completely file-based and this makes it different from Windows systems. Let's see below how the file system is organized in Linux.
