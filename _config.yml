@@ -41,7 +41,3 @@ plugins:
 #  - jekyll-feed
 
 remote_theme: thelehhman/texture
-
-#sitemap
-gems:
-     - jekyll-sitemap
