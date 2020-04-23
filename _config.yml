@@ -43,4 +43,5 @@ plugins:
 remote_theme: thelehhman/texture
 
 #sitemap
-gems: -jekyll-sitemap
+gems:
+     - jekyll-sitemap
