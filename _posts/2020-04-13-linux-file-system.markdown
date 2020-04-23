@@ -2,7 +2,7 @@
 layout: post
 title:  "Understanding the Linux file system"
 description: Understanding how Linux file system is organized.
-date:   2020-04-13
+date:   2020-04-13 00:00:00 +0530
 categories: Linux
 ---
 
