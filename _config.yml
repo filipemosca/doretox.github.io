@@ -38,7 +38,8 @@ texture:
 
 plugins:
   - jekyll-seo-tag
-  - jekyll-sitemap
-
 
 remote_theme: thelehhman/texture
+
+#variable
+production_url: https://doretox.github.io/
