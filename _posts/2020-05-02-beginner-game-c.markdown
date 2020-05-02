@@ -30,6 +30,6 @@ If you’re a more experienced programmer feel completely free to change the cod
 [Click here to access the source code or go to my github][my-github], or clicking on the icon in the header of this website. 
 
 
-[my-github]: https://github.com/doretox/guessing-game
-[random.org]: https://www.random.org/randomness/
-[random-numbers-c]: https://www.geeksforgeeks.org/rand-and-srand-in-ccpp/
+[my-github]: https://github.com/doretox/guessing-game {:target="_blank"}
+[random.org]: https://www.random.org/randomness/ {:target="_blank"}
+[random-numbers-c]: https://www.geeksforgeeks.org/rand-and-srand-in-ccpp/ {:target="_blank"}
