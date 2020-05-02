@@ -20,11 +20,16 @@ srand(time(0));
 	int secretNumber = rand() % 100;
 ```
 
-First of all, computers cannot generate true random numbers. They do this simply because computers follow a set of rules programmed by humans. To know more about random numbers, I strongly recommend you to visit [random.org][https://www.random.org/randomness/]. This website has a lot of useful and interesting information about random numbers.
+First of all, computers cannot generate true random numbers. They do this simply because computers follow a set of rules programmed by humans. To know more about random numbers, I strongly recommend you to visit [random.org][random.org]. This website has a lot of useful and interesting information about random numbers.
 So what do we do to generate these numbers in small programs like mine? We can add a little trick using the current time. Every time we run our program the date will be different from the first time (even if it is for milliseconds).
 
-[You can read more about random numbers in C/C++ in this website] [https://www.geeksforgeeks.org/rand-and-srand-in-ccpp/]
+[You can read more about random numbers in C/C++ in this website] [random-numbers-c]
 
 If you’re a more experienced programmer feel completely free to change the code and open a Pull Request to make it easier and more beginner friendly. 
 
-[Click here to access the source code or go to my github] [https://github.com/doretox/guessing-game], or clicking on the icon in the header of this website. 
+[Click here to access the source code or go to my github][my-github], or clicking on the icon in the header of this website. 
+
+
+[my-github]: https://github.com/doretox/guessing-game
+[random.org]: https://www.random.org/randomness/
+[random-numbers-c]: https://www.geeksforgeeks.org/rand-and-srand-in-ccpp/
