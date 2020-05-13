@@ -3,7 +3,7 @@ layout: post
 title:  "Understanding the Linux file system"
 description: Understanding how Linux file system is organized.
 date:   2020-04-13 00:00:00 +0530
-categories: Linux
+categories: [Linux, Beginner]
 ---
 
 The Linux filesystem structure is somewhat different from that of Windows. Linux has roots in UNIX so it has the backslash for directory separation and its name system is case sensitive.
