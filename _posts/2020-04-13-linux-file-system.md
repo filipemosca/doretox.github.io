@@ -10,7 +10,7 @@ The Linux filesystem structure is somewhat different from that of Windows. Linux
 For example, on a Linux file system the following files: file.txt, File.txt and FIle.txt are different.
 The Linux system is completely file-based and this makes it different from Windows systems. Let's see below how the file system is organized in Linux.
 
-![Linux file system](/assets/img/linux-file-system/folders.jpg)
+![Linux file system](/images/linux-file-system/folders.jpg)
 *Folders in Kali Linux.*
 
 ### /bin
